@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	list-style:none;
+}
+body{
+	font: 600 16px Oswald;
+	background-image:url(../img/foto1.png);
+
+	
+
+}
+.footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	
+}
+#login{
+	width:300px;
+	height:250px;
+	margin: 0 auto;
+	position:relative;
+	top:200px;
+	color:#000;
+	border:1px solid#f1f1f1;
+	padding:10px;
+	background-color: #FFC;
+	background: rgba(0, 0, 0, 0.3);
+}
+	#login label{
+		display:block;
+		padding-top:5px;
+		font-size:20px;
+		
+	}
+	.txt {
+		border:none;
+		height:30px;
+		width:250px;
+		font-size:20px;
+		border: thin solid #f1f1f1;
+	}
+	.txt:focus{
+		border: thin solid #09f;
+		box-shadow:: 0.2px 16px #09F;
+		-webkit-0.5px 16px #09F;
+		-moz-0.5px 26px #09F;
+	}
+	.sb{
+		display:block;
+		border:none;
+		width:259px;
+		height:40px;
+		margin-top: 10px;
+		cursor:pointer;
+		font:400 18px Oswald;
+		color:#999;
+	}
+	.sb:hover{
+		background: #09f;
+		color:#fff;
+		
+	}
+	/* classe de herança*/
+	.bradius{
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+	}
+	.fleft{
+		float: left;
+	}
+	.fright{
+		float:right;
+	}
+	/* Multiplos estilos*/
+
+	.txt,.txt:focus,.sb,.sb:hover {
+		transition:all 0.5s linear;
+		-webkit-transition:all 0.5s linear;
+		-moz-transition:all 0.5s linear;
+		
+	}
+		

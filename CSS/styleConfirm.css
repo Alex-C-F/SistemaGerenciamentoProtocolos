@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font: 600 16px Oswald;
+
+	
+
+}
+	.sb{
+		display:block;
+		border:none;
+		width:150px;
+		height:40px;
+		margin-top: 10px;
+		cursor:pointer;
+		font:400 18px Oswald;
+		color:#999;
+	}
+	.sb:hover{
+		background: #09f;
+		color:#fff;
+		
+.bradius{
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		
+	}
+	.fleft{
+		float: left;
+	}
+	.fright{
+		float:right;
+	}
+.txt,.txt:focus,.sb,.sb:hover {
+		transition:all 1s linear;
+		-webkit-transition:all 1s linear;
+		-moz-transition:all 1s linear;
+		
+}

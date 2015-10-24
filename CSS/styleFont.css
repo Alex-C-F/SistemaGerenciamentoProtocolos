@@ -1,0 +1,67 @@
+style type="text/css">
+<!--
+body {
+	background-color:#E0FFFF;	
+	
+}
+.style1 {
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+}
+a:link {
+	color: #000000;
+}
+a:visited {
+	color: #000000;
+}
+a:hover {
+	color: #000000;
+}
+a:active {
+	color: #000000;
+}
+.style5 {
+	font-size: 24px;
+	color: #000099;
+}
+.style6 {font-size: 18px}
+-->
+</style>
+	.sb{
+		display:block;
+		border:none;
+		width:259px;
+		height:40px;
+		margin-top: 10px;
+		cursor:pointer;
+		font:400 18px Oswald;
+		color:#999;
+	}
+	.sb:hover{
+		background: #09f;
+		color:#fff;
+		
+	}
+	/* classe de herança*/
+	.bradius{
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		
+	}
+	.fleft{
+		float: left;
+	}
+	.fright{
+		float:right;
+	}
+	/* Multiplos estilos*/
+
+	.txt,.txt:focus,.sb,.sb:hover {
+		transition:all 1s linear;
+		-webkit-transition:all 1s linear;
+		-moz-transition:all 1s linear;
+		
+	}
+		
